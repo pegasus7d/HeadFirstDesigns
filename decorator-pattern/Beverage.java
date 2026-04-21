@@ -1,10 +1,9 @@
 public abstract class Beverage {
-    String description="Unknown Description";
+    String description = "Unknown Description";
 
-    public String getDescription(){
+    public String getDescription() {
         return description;
     }
 
     public abstract double cost();
-
 }
